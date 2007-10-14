@@ -14,6 +14,9 @@
 # TODO: MAYBE: [wm withdraw] dialog on dismiss instead of self-destructing 
 #
 
+package require keynav
+package require ttk::icons
+
 package provide ttk::dialog 0.8
 
 namespace eval ttk::dialog {

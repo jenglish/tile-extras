@@ -16,6 +16,8 @@
 # They've finally gotten around to publishing something.
 #
 
+package provide ttk::icons 0
+
 namespace eval ttk {
     variable Icons		;# Map: icon name -> image
     namespace eval icons {}	;# container namespace for images
