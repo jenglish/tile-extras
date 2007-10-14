@@ -1,9 +1,8 @@
-#
-# $Id: dialog.tcl,v 1.6 2007/07/10 21:53:26 jenglish Exp $
-#
-# Copyright (c) 2005, Joe English.  Freely redistributable.
-#
-# Tile widget set: dialog boxes.
+########################################################################
+# tile-extras: dialog boxes.
+# Copyright (c) 2005, Joe English.
+# Freely redistributable; see the file license.terms for details.
+########################################################################
 #
 # TODO: option to keep dialog onscreen ("persistent" / "transient")
 # TODO: accelerator keys.

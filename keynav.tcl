@@ -2,9 +2,6 @@
 # keynav package - Enhanced keyboard navigation
 # Copyright (C) 2003 Joe English
 # Freely redistributable; see the file license.terms for details.
-#
-# $Id: keynav.tcl,v 1.8 2006/04/07 19:30:48 jenglish Exp $
-#
 ########################################################################
 #
 # Usage:
