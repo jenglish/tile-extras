@@ -1,0 +1,40 @@
+'\"
+'\" Copyright (c) 2004 Joe English
+'\" 
+'\" 
+.so man.macros
+.TH keynav n 0.2 tile "Tile Widget Set"
+.BS
+.SH NAME
+keynav \- Keyboard navigation utilities
+.SH SYNOPSIS
+.nf
+package require keynav ?\fI1.0\fR?
+
+keynav::enableMnemonics \fIwindow\fR
+keynav::defaultButton \fIbutton\fR
+keynav::traverseTo \fIwidget\fR
+.fi
+.SH "MNEMONIC ACTIVATION"
+\fBkeynav::enableMnemonics \fIwindow\fR adds bindings to the 
+specified toplevel \fIwindow\R to enable mnemonic activation
+for that window.
+A \fImnemonic\fP is an underlined alphanumeric character
+in a widget's label.  With mnemonic activation enabled,
+typing that character with the \fBAlt\fP key held down
+will activate the widget.
+.PP
+Any widget that has \fB-text\fP and \fB-underline\fP options
+and a binding for the \fB<<Invoke>>\fP virtual event
+supports mnemonic activation.
+.SH "DEFAULT ACTIVATION"
+Dialog boxes typically have a \fIdefault button\fP which
+is activated when the user presses \fBReturn\fP or \fBEnter\fP.
+.SH "VIRTUAL EVENTS"
+
+.SH "SEE ALSO"
+focus(n), tk_focusNext, tk_focusPrev, ttk::notebook::enableTraversal
+
+.SH "KEYWORDS"
+keyboard, navigation, traversal, mnemonic, accelerator, access key
+
